@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+   /* ******************************************************************************* */
+  
+  .header {
+    width: 100%;
+    width: 90rem;
+    height: 7.313rem;
+    background-color:rgba(46, 148, 138, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 28.125rem) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: 7.313rem;
+        width: 68.125rem;
+    }
+  }
+  
+  .logo {
+    width: 15.25rem;
+    height: 4.813rem;
+    padding-left: 5.125rem;    
+  }
+  
+  @media screen and (max-width: 28.125rem) {
+    .logo img {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        align-content: flex-start;
+        padding: 1.25rem;
+    }
+  }
+  
+  .menu * {
+    text-decoration: none;
+    list-style: none;
+    color: #FDFDFD;
+    font-size: 1.125rem;
+  }
+  
+  @media screen and (max-width: 28.125rem) {
+    .menu {
+        height: 1.875rem;
+    }
+  }
+  
+  .menu ul {
+    display: flex;
+    gap: 2.313rem;
+    padding-right: 6.438rem;
+  }
+  
+  .menu ul li {
+    font-weight: 700;
+  }
+  
+  @media screen and (max-width: 28.125rem) {
+    .menu, .menu ul, .menu ul li {
+        display: inline;
+        flex-direction: row;
+        align-items: center;
+        padding: 1.25rem;
+        justify-content: space-around;
+        padding-bottom: 1.25rem;
+    }
+  }
+
+.conteudo {
+    height: 100vh;
+    margin: auto;
+    min-width: 22.5rem;
+    max-width: 90rem;
+}
+
+#intro h1 {
+    position: absolute;
+    width: 16.438rem;
+    height: 4.313rem;
+    left: 5.125rem;
+    top: 12.375rem;
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.75rem;
+    line-height: 4.313rem;
+    text-transform: capitalize;
+}
+
+#intro p {
+    position: absolute;
+    width: 19.813rem;
+    height: 1.438rem;
+    left: 5.125rem;
+    top: 16.688rem;
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+}
+
+#curso1 img {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    width: 23.75rem;
+    height: 23.813rem;
+    top: 24.063rem;
+    left: 7rem;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso1 img {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+#curso1 h2 {
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.188em;
+    line-height: 2.5em;
+    position: absolute;
+    width: 32rem;
+    height: 2.5rem;
+    left: 34.063rem;
+    top: 25.375rem;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso1 h2 {
+        font-weight: 400;
+        font-size: 1.563rem;
+        width: 30.188rem;
+    }
+}
+
+#curso1 p {
+    color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.313em;
+    position: absolute;
+    width: 45.25rem;
+    height: 6.563rem;
+    left: 34.063rem;
+    top: 30.188rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso1 p {
+        font-weight: 200;
+        font-size: 0.938rem;
+        width: 18.75rem;
+    }
+}
+
+#curso1 button {
+    position: absolute;
+    text-decoration: none;
+    width: 14.563rem;
+    height: 3.188rem;
+    left: 34.063rem;
+    top: 40.063rem;
+    background: #419488;
+    border-radius: 3.875rem;
+    border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso1 button {
+        top: 43.75rem;
+        left: 36.25rem;
+    }
+}
+
+#curso1 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#curso1 hr {
+    position: absolute;
+    width: 77.75rem;
+    height: 0.313rem;
+    left: 5.125rem;
+    top: 52.125rem;
+    background-color: #C4C4C4;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    #curso1 hr {
+        width: 50rem;
+    }
+}
+
+#curso2 img {
+    position: absolute;
+    width: 100%;
+    width: 23.75rem;
+    height: 24.063rem;
+    top: 59.125rem;
+    left: 7rem;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso2 img {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+#curso2 h2 {
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.188em;
+    line-height: 2.5em;
+    position: absolute;
+    width: 23.313rem;
+    height: 2.5rem;
+    left: 34.063rem;
+    top: 59.188rem;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso2 h2 {
+        font-weight: 400;
+        font-size: 1.563rem;
+        width: 30.188rem;
+    }
+}
+
+#curso2 p {
+    color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.313em;
+    position: absolute;
+    width: 45.25rem;
+    height: 6.563rem;
+    left: 34.063rem;
+    top: 64rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso2 p {
+        font-weight: 200;
+        font-size: 0.938rem;
+        width: 18.75rem;
+    }
+}
+
+#curso2 button {
+    position: absolute;
+    width: 14.563rem;
+    height: 3.188rem;
+    left: 34.063rem;
+    top: 74.938rem;
+    background: #419488;
+    border-radius: 3.875rem;
+    border: 0px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-align: center;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso2 button {
+        top: 78.125rem;
+        left: 36.25rem;
+    }
+}
+
+#curso2 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#curso2 hr {
+    position: absolute;
+    width: 77.75rem;
+    height: 0.313rem;
+    left: 6.125rem;
+    top: 89rem;
+    background-color: #C4C4C4;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso2 hr {
+        width: 50rem;
+    }    
+}
+
+#curso3 img {
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    width: 23.75rem;
+    height: 31.125rem;
+    top: 95.125rem;
+    left: 8rem;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso3 img {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+#curso3 h2 {
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.188em;
+    line-height: 2.5em;
+    position: absolute;
+    width: 26.563rem;
+    height: 2.5rem;
+    left: 33.375rem;
+    top: 98.813rem;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso3 h2 {
+        font-weight: 400;
+        font-size: 1.563rem;
+        width: 30.188rem;
+    }
+}
+
+#curso3 p {
+    color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.313em;
+    position: absolute;
+    width: 45.25rem;
+    height: 6.563rem;
+    left: 35rem;
+    top: 103.625rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso3 p {
+        font-weight: 200;
+        font-size: 0.938rem;
+        width: 18.75rem;
+    }
+}
+
+#curso3 button {
+    position: absolute;
+    width: 14.563rem;
+    height: 3.188rem;
+    left: 34.063rem;
+    top: 114.375rem;
+    background: #2E948A;
+    border-radius: 3.875rem;
+    border: 0rem;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-align: center;
+}
+
+@media screen and (max-width: 28.125rem) {
+    #curso3 button {
+        top: 117.188rem;
+        left: 36.25rem;
+    }
+}
+
+#curso3 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+  
+  /* ******************************************************************************* */
+  
+  .footer {
+    position: absolute;
+    height: 12.938rem;
+    width: 90rem;
+    background-color: rgba(65, 148, 136, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8.563rem;
+    top: 138.875rem;
+  }
+  
+  @media screen and (max-width: 28.125rem) {
+    .footer {
+      height: 21.875rem;  
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      width: 68.125rem;
+      bottom: 0rem;
+    }
+  }
+  
+  .Logo-1 {  
+    width: 6.25rem;
+    height: 3.125rem;
+  }
+  
+  .menufinal * {
+    text-decoration: none;
+    list-style: none;
+    color: #FFFFFF;
+    font-family: 'Ubuntu';
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+  
+  @media screen and (max-width: 28.125rem) {
+    .menufinal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+  .group-30 {
+    border: 0.125rem solid #FFFFFF;
+    border-radius: 3.875rem;
+    color: #FFFFFF;
+    Width: 18.063rem;
+    height: 3.188rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    margin-bottom: 0.625rem;
+   }
+  
+   .group-29 {
+    border: 0.125rem solid #FFFFFF;
+    border-radius: 3.875rem;
+    color: #FFFFFF;
+    height: 3.188rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    width: 18.063rem;
+  }  
